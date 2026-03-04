@@ -2,9 +2,13 @@
 ## Tasks overview
 ### Task A: Please, answer the following questions as precise as posible, preferably in English
 #### **Status: Not solved**
+<details>
+
 1. Describe the most relevant learnings from programming-related subjects during your career
 2. Describe a situation you had to resolve with a teammate from a study or work group
 3. Describe your personal learning plans or development expectations in technical areas in the short and long terms
+
+</details>
 
 ### Task B: Practical exercise to solve - The Streaming Service's Lost Episodes
 #### **Status: Not solved**
@@ -113,4 +117,5 @@ Must include:
 - Explanation of the deduplication strategy
 
 This report helps assess data quality and your decision‑making
+
 </details>
