@@ -8,8 +8,8 @@ class EpisodeParser:
         # In this method we will parse string numbers ("one", "3", "-2") and negative integers
         
         # If we are given an int, but it can be a negative, we return it only if it is positive
-        if isinstance(value, int):
-            return value if value > 0 else 0
+        if isinstance(value, (int, float)):
+            return int(value) if value > 0 else 0
         
         # If we got None, "", "      " trying to pass as a number, here we catch them
         if not value or not value.strip():
@@ -29,7 +29,7 @@ class EpisodeParser:
         # By last we will try to convert the literal number ("one", "twenty three") to an int
         try:
             number = word2num(value)
-            return number if number > 0 else 0
+            return int(number) if number > 0 else 0
         except Exception:
             return 0
     
