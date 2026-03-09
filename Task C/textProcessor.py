@@ -9,3 +9,5 @@ def textProcessor(rawText: str):
             cleanText = cleanText + character.lower()
         else:
             cleanText = cleanText + " "
+    
+    return cleanText
