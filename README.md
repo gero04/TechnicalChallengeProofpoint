@@ -1,7 +1,7 @@
 # Technical Challenge Proofpoint - 2026 edition - Proofpoint
 ## Tasks overview
 ### Task A: Please, answer the following questions as precise as posible, preferably in English
-#### **Status: Not solved**
+#### **Status: Solved**
 <details>
 
 1. Describe the most relevant learnings from programming-related subjects during your career
@@ -11,7 +11,7 @@
 </details>
 
 ### Task B: Practical exercise to solve - The Streaming Service's Lost Episodes
-#### **Status: Not solved**
+#### **Status: Solved**
 <details>
 <summary> Context, Goal, Problems & Output </summary>
 
@@ -117,5 +117,21 @@ Must include:
 - Explanation of the deduplication strategy
 
 This report helps assess data quality and your decision‑making
+
+</details>
+
+### Task C: Word Frequency Analisis
+#### **Status: Solved**
+<details>
+
+<summary> Description </summary>
+
+Write a program that reads a text file and performs a word frequency analysis:
+
+- The program should be able to read a text file provided as input and count how many times each word appears in the text.
+
+- The word comparison should be case-insensitive and should not consider punctuation or special characters.
+
+- Display the 10 most frequent words, along with their frequency of occurrence.
 
 </details>
